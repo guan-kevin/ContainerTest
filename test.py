@@ -1,1 +1,1 @@
-print(Buggy)
+print('Fix bug')
