@@ -1,0 +1,11 @@
+name: Main
+on: push
+
+jobs:
+  build:
+    name: Test
+    runs-on: ubuntu-20.04
+    container: python:3.11.0rc1
+    steps:
+      - uses: actions/checkout@v2
+      - run: python -V
